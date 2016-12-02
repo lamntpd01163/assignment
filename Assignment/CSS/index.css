@@ -1,0 +1,62 @@
+﻿body {
+    background:url(../images/bg1.jpg) top center fixed no-repeat #DDD;
+}
+
+a {
+		text-decoration: none;
+}
+
+#wrapper {
+		width: 1024px;
+		margin: auto;
+		background-color: #005;
+}
+
+#than {
+		background-color: #005;
+		padding: 0 12px;
+		width: 1000px;
+}
+#left {
+		width: 970px;	
+		float: left;
+		margin: 10px 5px 10px 10px;
+		background-color: #FFF;
+		border-radius: 10px;
+		box-shadow: 0 0 20px #EEE;
+		padding: 10px;
+}
+
+
+#footer {
+		clear: both;
+		background: #005;
+		padding: 0 20px 10px 20px;
+		border-top: 3px solid #06F;
+}
+#footer p {
+		color: #BBB;
+}
+
+.menu {
+		background-color: #005;
+		height: 40px;
+		line-height: 40px;
+		padding: 0 12px;
+}
+span.item>a {
+		padding: 10px 20px;
+		color: #FFF;
+		font-weight: bold;
+}
+span.select>a {
+		background-color: #090;
+		border-radius: 5px;
+		box-shadow: 0 0 20px #0C0;
+}
+span.item>a:hover {
+		background-color: #007197;
+		border-radius: 5px;
+		transition: all 1s ease 0s;
+		box-shadow: 0 0 20px blue;
+}
